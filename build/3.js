@@ -1,14 +1,14 @@
 webpackJsonp([3],{
 
-/***/ 519:
+/***/ 525:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LogrosPageModule", function() { return LogrosPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ParametrosPageModule", function() { return ParametrosPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__logros__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__parametros__ = __webpack_require__(166);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var LogrosPageModule = /** @class */ (function () {
-    function LogrosPageModule() {
+var ParametrosPageModule = /** @class */ (function () {
+    function ParametrosPageModule() {
     }
-    LogrosPageModule = __decorate([
+    ParametrosPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__logros__["a" /* LogrosPage */],
+                __WEBPACK_IMPORTED_MODULE_2__parametros__["a" /* ParametrosPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__logros__["a" /* LogrosPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__parametros__["a" /* ParametrosPage */]),
             ],
         })
-    ], LogrosPageModule);
-    return LogrosPageModule;
+    ], ParametrosPageModule);
+    return ParametrosPageModule;
 }());
 
-//# sourceMappingURL=logros.module.js.map
+//# sourceMappingURL=parametros.module.js.map
 
 /***/ })
 

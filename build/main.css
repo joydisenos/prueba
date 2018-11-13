@@ -25674,6 +25674,14 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+page-detalles ion-list ion-icon {
+  color: yellow;
+}
+
+page-detalles ion-footer {
+  text-align: center;
+}
+
 page-home .center {
   text-align: center;
 }
