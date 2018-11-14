@@ -25674,6 +25674,21 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+page-actividad ion-card-content .copa {
+  max-height: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+page-actividad ion-card-content .titulos {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+page-actividad .timer {
+  border: thin solid #000000;
+}
+
 page-detalles ion-list ion-icon {
   color: yellow;
 }
@@ -25686,37 +25701,20 @@ page-home .center {
   text-align: center;
 }
 
-page-home .card-background-page ion-card {
-  position: relative;
-  text-align: center;
-}
-
-page-home .card-background-page ion-card .fondo {
-  -webkit-filter: brightness(30%);
-  filter: brightness(30%);
-}
-
-page-home .card-background-page .card-title {
-  position: absolute;
-  top: 36%;
-  font-size: 2.0em;
-  width: 100%;
-  font-weight: bold;
-  color: #fff;
-}
-
-page-home .card-background-page .card-subtitle {
-  font-size: 1.0em;
-  position: absolute;
-  top: 52%;
-  width: 100%;
-  color: #fff;
-}
-
 page-login .titulo {
   text-align: center;
 }
 
 page-login .ingresar {
   margin-top: 20px;
+}
+
+page-perfil-form .perfil {
+  max-width: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+page-perfil-form .titulos {
+  font-size: 40px;
 }
